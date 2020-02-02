@@ -17,8 +17,13 @@ To actually run gridworld after you have all of the above set up, use the termin
   - make sure that your Tester/Runner has created the appropriate Bug object, such as if you made a ZBug
     you need to make sure that your tester has made a new ZBug object, not just the bug object, and placed
     it into the world
+ - the commands are as followed
+  - "javac <nameOfFileYouWantToCompile>.java"
+  - remember to compile all the files you are testing, not including the ones inside of the INFO, and 
+    META-INF, but the ones you are using (Runner.java(the tester) and ZBug.java(your own version of Bug)
  - then java <name of compiled file>, which should make it run
   - on linux you just need to type "java <name of the file>", not "java <name of the file>.class" 
     dunno if this also applies to Macs, they're pretty similar OSs
     
 good luck, go ask questions if you're stuck, just make sure to explain context to the questions.
+0:41 AM
