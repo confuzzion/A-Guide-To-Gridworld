@@ -1,0 +1,24 @@
+Assuming that you've followed the directions in how to set up gridworld you should have the following:
+ - A folder that you have made which has:
+  - info and META-INF, which were both extracted from gridworld.jar and all the info inside was unedited
+  - a Runner/Tester java file which has the appropriate import statements
+    - eg "import info.gridworld.actor.ActorWorld;","import info.gridworld.actor.Bug;", 
+          "import info.gridworld.actor.Actor;", etc...)
+    - you only need to import the files that you are extending and using, such as ActorWorld which you 
+      use to actually show the grid with "<nameOfWorldObjectYouCreated>.show", Actor and Bug, which you 
+      need to create the bugs that show up on screen. (for more help, look at my "Runner.java")
+  Your new bug extensions should have the import statements that it uses as well, such as 
+  "import info.gridworld.actor.Actor" and "import info.gridworld.Bug."
+  
+To actually run gridworld after you have all of the above set up, use the terminal
+
+ - change your directory in your terminal to where the folder is (the folder that has all the above stuff)
+ - compile only the files you're testing, such as the Runner/Tester and the Modified Bug thing.
+  - make sure that your Tester/Runner has created the appropriate Bug object, such as if you made a ZBug
+    you need to make sure that your tester has made a new ZBug object, not just the bug object, and placed
+    it into the world
+ - then java <name of compiled file>, which should make it run
+  - on linux you just need to type "java <name of the file>", not "java <name of the file>.class" 
+    dunno if this also applies to Macs, they're pretty similar OSs
+    
+good luck, go ask questions if you're stuck, just make sure to explain context to the questions.
